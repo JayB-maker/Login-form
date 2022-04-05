@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="login-form" id="login_form">
+            <h1>LOGIN</h1>
+            <form>
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="Your Email id">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+
+                <div class="actions">
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                        <img src="Assets/noun-arrow-2581937-01.png" alt="">
+                    </div>
+                    <div class="check-box">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox" name="checkbox">Remember me</label>
+                    </div>
+                </div>
+
+                <div class="second-action">
+                    <button type="submit" id="new" onclick="registerNow()">I Am New</button>
+                    <a href="#">forgot Password</a>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="registeration-form" id="registeration_form">
+            <h1>REGISTER</h1>
+            <form>
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="Your Email id">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                
+                <div class="actions">
+                    <div class="submit">
+                        <button type="submit">Submit</button>
+                        <img src="Assets/noun-arrow-2581937-01.png" alt="">
+                    </div>
+                    <div class="check-box">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox" name="checkbox">Remember me</label>
+                    </div>
+                </div>
+
+                <div class="second-action">
+                    <button type="submit" id="existing" onclick="loginNow()">Login</button>
+                    <a href="#">forgot Password</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

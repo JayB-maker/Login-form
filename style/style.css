@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background-color: aqua;
+  padding-top: 15vh;
+}
+
+body .form-container {
+  display: block;
+  justify-items: center;
+  margin: 0 auto;
+  height: 60vh;
+  width: 90vw;
+  -webkit-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+  background-image: url("../Assets/nj 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .form-container .registeration-form {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body .form-container .login-form {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body .form-container h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  margin: 50px;
+  padding-top: 50px;
+}
+
+body .form-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+body .form-container form .field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .form-container form .field input {
+  background: none;
+  border: 2px solid white;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+}
+
+body .form-container form .field input::-webkit-input-placeholder {
+  color: white;
+}
+
+body .form-container form .field input:-ms-input-placeholder {
+  color: white;
+}
+
+body .form-container form .field input::-ms-input-placeholder {
+  color: white;
+}
+
+body .form-container form .field input::placeholder {
+  color: white;
+}
+
+body .form-container form .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+body .form-container form .actions .submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body .form-container form .actions .submit button {
+  height: 40px;
+  width: 100%;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+body .form-container form .actions .submit img {
+  position: absolute;
+  height: 40px;
+  aspect-ratio: 1/1;
+  right: 0;
+}
+
+body .form-container form .actions .check-box input {
+  accent-color: #4343ec;
+  margin-right: 10px;
+}
+
+body .form-container form .actions .check-box label {
+  color: white;
+  font-size: small;
+}
+
+body .form-container form .second-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .form-container form .second-action button {
+  height: 40px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+body .form-container form .second-action a {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    height: 100vh;
+    padding-top: 8vh;
+  }
+  body .form-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: 60vw;
+    padding: 0;
+  }
+  body .form-container .registeration-form {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  body .form-container .registeration-form h1 {
+    padding-top: 80px;
+  }
+  body .form-container .login-form {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  body .form-container .login-form h1 {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+    padding: 0;
+  }
+  body .form-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: 30vw;
+    padding: 0;
+  }
+  body .form-container .login-form {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  body .form-container .login-form h1 {
+    padding-top: 80px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
